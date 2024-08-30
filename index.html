@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .menu-item img {
+            max-width: 100px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .menu-item-details {
+            flex: 1;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            color: #444;
+        }
+
+        .menu-item p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Karn Delight</h1>
+</header>
+
+<nav>
+    <a href="#starters">Starters</a>
+    <a href="#main-courses">Main Courses</a>
+    <a href="#desserts">Desserts</a>
+    <a href="#beverages">Beverages</a>
+</nav>
+
+<div class="menu-container">
+    <h2 id="starters">Starters</h2>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/100" alt="Bruschetta">
+        <div class="menu-item-details">
+            <h3>Bruschetta</h3>
+            <p>Grilled bread topped with diced tomatoes, garlic, and basil.</p>
+            <span>Rs,100</span>
+        </div>
+    </div>
+
+    <h2 id="main-courses">Main Courses</h2>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/100" alt="Grilled Fish">
+        <div class="menu-item-details">
+            <h3>Grilled Fish</h3>
+            <p>Freshly grilled Fish served with a lemon butter sauce and side of vegetables.</p>
+            <span>Rs.200</span>
+        </div>
+    </div>
+
+    <h2 id="desserts">Desserts</h2>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/100" alt="Chocolate Cake">
+        <div class="menu-item-details">
+            <h3>Chocolate Cake</h3>
+            <p>Rich chocolate cake </p>
+            <span>Rs250.00</span>
+        </div>
+    </div>
+
+    <h2 id="beverages">Beverages</h2>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/100" alt="Cappuccino">
+        <div class="menu-item-details">
+            <h3>Cappuccino</h3>
+            <p>Freshly brewed espresso with steamed milk and foam.</p>
+            <span>Rs.80</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
